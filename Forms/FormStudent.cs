@@ -324,5 +324,10 @@ namespace ver2.Forms
                 }
             }
         }
+
+        private void dateofbirthbox_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

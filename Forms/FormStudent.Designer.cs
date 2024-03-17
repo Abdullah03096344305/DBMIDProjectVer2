@@ -201,6 +201,7 @@
             dateofbirthbox.Name = "dateofbirthbox";
             dateofbirthbox.Size = new Size(200, 23);
             dateofbirthbox.TabIndex = 16;
+            dateofbirthbox.ValueChanged += dateofbirthbox_ValueChanged;
             // 
             // gendercombo
             // 

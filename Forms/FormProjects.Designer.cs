@@ -45,6 +45,7 @@
             descriptiontxt.Name = "descriptiontxt";
             descriptiontxt.Size = new Size(240, 23);
             descriptiontxt.TabIndex = 35;
+            descriptiontxt.TextChanged += descriptiontxt_TextChanged;
             // 
             // titletxt
             // 
@@ -52,6 +53,7 @@
             titletxt.Name = "titletxt";
             titletxt.Size = new Size(240, 23);
             titletxt.TabIndex = 34;
+            titletxt.TextChanged += titletxt_TextChanged;
             // 
             // label3
             // 
@@ -81,6 +83,7 @@
             button3.TabIndex = 38;
             button3.Text = "Update";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -90,6 +93,7 @@
             button2.TabIndex = 37;
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // addbtn
             // 
@@ -99,6 +103,7 @@
             addbtn.TabIndex = 36;
             addbtn.Text = "ADD";
             addbtn.UseVisualStyleBackColor = true;
+            addbtn.Click += addbtn_Click;
             // 
             // projectgridview
             // 
@@ -107,6 +112,7 @@
             projectgridview.Name = "projectgridview";
             projectgridview.Size = new Size(624, 326);
             projectgridview.TabIndex = 39;
+            projectgridview.CellContentClick += projectgridview_CellContentClick;
             // 
             // FormProjects
             // 
@@ -123,6 +129,7 @@
             Controls.Add(label2);
             Name = "FormProjects";
             Text = "FormProjects";
+            Load += FormProjects_Load;
             ((System.ComponentModel.ISupportInitialize)projectgridview).EndInit();
             ResumeLayout(false);
             PerformLayout();

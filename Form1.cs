@@ -72,32 +72,32 @@ namespace ver2
 
         private void btnProjects_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormProjects(), sender);
         }
 
         private void btnEvalutions_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormEvalution(), sender);
         }
 
         private void btnEvalutionExamine_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormEvalution(), sender);
         }
 
         private void btnGroups_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormGroup(), sender);
         }
 
         private void btnAssignAdviosr_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormAssignAdvisor(), sender);
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormGenerateReport(), sender);
         }
 
         private void label2_Click(object sender, EventArgs e)

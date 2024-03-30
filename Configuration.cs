@@ -9,7 +9,7 @@ namespace ver2
 {
     class Configuration
     {
-        String ConnectionStr = @"Data Source=(local);Initial Catalog=ProjectA;Integrated Security=True";
+        String ConnectionStr = @"Data Source=(local);Initial Catalog=MidProject;Integrated Security=True";
         SqlConnection con;
         private static Configuration _instance;
         public static Configuration getInstance()

@@ -9,10 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CrystalReports" Version="13.0.5.891" />
     <PackageReference Include="CrystalReports.Engine" Version="13.0.4003" />
     <PackageReference Include="CrystalReports.Windows.Forms" Version="13.0.4003" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="itextsharp.xmlworker" Version="5.5.13.3" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

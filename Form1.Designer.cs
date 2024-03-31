@@ -227,6 +227,7 @@
             panelDesktopPane.Name = "panelDesktopPane";
             panelDesktopPane.Size = new Size(664, 501);
             panelDesktopPane.TabIndex = 3;
+            panelDesktopPane.Paint += panelDesktopPane_Paint;
             // 
             // FormMainMenu
             // 

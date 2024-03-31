@@ -11,9 +11,9 @@ namespace ver2
         {
             InitializeComponent();
             random = new Random();
-           
+
         }
-       
+
         private void FormMainMenu_Load(object sender, EventArgs e)
         {
 
@@ -45,7 +45,7 @@ namespace ver2
         }
         private void OpenChildForm(Form childForm, object btnSender)
         {
-            if(activeForm != null)
+            if (activeForm != null)
             {
                 activeForm.Close();
             }
@@ -82,7 +82,7 @@ namespace ver2
 
         private void btnEvalutionExamine_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormEvalution(), sender);
+            OpenChildForm(new Forms.FormEvalutionExamine(), sender);
         }
 
         private void btnGroups_Click(object sender, EventArgs e)
@@ -101,6 +101,11 @@ namespace ver2
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
         {
 
         }
